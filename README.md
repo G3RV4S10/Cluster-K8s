@@ -63,7 +63,7 @@ O particionamento foi pensado para:
 
 ---
 
-## 📂 Uso de Btrfs (Decisão Consciente)
+## 📂 Uso de Btrfs
 
 O **Btrfs** foi escolhido por:
 - Suporte a subvolumes
@@ -121,11 +121,11 @@ Este projeto serve como:
 
 ## Próximos Passos
 
-- [ ] Inicialização do cluster com kubeadm
+- [x] Inicialização do cluster com kubeadm
 - [ ] Hardening básico de segurança
 - [ ] Monitoramento (Prometheus + Grafana)
 - [ ] Backup do etcd
-- [ ] Networking (CNI)
+- [ ] Networking (CNI) - Calico 
 - [ ] Documentação de troubleshooting
 
 ---
