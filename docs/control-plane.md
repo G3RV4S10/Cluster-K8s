@@ -4,11 +4,11 @@ Utilizado;
 - 4vCpu
 - 8vRam
 - 64vDisk
-- Rede (192.168.x.x/24)
+- Rede (xxx.xxx.xxx.xxx/24)
 
 
 Este documento descreve o processo de preparação e bootstrap do **Control Plane Kubernetes**
-em um sistema **Debian GNU/Linux 13**, seguindo rigorosamente as **boas práticas recomendadas
+em um sistema **Debian GNU/Linux 13**, seguindo as **boas práticas recomendadas
 pela documentação oficial do Kubernetes**, utilizando `kubeadm`.
 
 Referência oficial:  
@@ -21,7 +21,6 @@ O objetivo é garantir:
 - Aderência a padrões enterprise
 ---
 ## Pré-requisitos do Ambiente
-
 - Sistema operacional: **Debian GNU/Linux 13**
 - Arquitetura: amd64
 - Acesso root ou sudo
@@ -31,8 +30,7 @@ O objetivo é garantir:
 
 ---
 
-## Configuração de Proxy (Ambiente Corporativo)
-
+## Configuração de Proxy, se aplicável (Ambiente Corporativo)
 Este nó foi previamente configurado para operar atrás de proxy HTTP/HTTPS, garantindo:
 
 - Acesso aos repositórios oficiais do Kubernetes
@@ -43,12 +41,14 @@ Este nó foi previamente configurado para operar atrás de proxy HTTP/HTTPS, gar
 
 # Preparando o control-plane
 ### Via CLI
+```bash
 ### Setando proxy na VM, caso nao possua em seu ambiente corporativo, nao e necessario
-export http_proxy=http://170.xx.xx.xx:xx \
-export https_proxy=http://170.xx.xx.xx:xx
+export http_proxy=http://xxx.xxx.xx.xx:xx \
+export https_proxy=http://xxx.xxx.xx.xx:xx
 ### IMPORTANTE: Defina no_proxy para que o cluster não tente sair pelo proxy para falar localmente
-export no_proxy=127.0.0.1,localhost,192.168.x.x/24,10.96.x.x/12,10.244.x.x/16
 
+export no_proxy=127.0.0.1,localhost,192.168.x.x/24,10.96.x.x/12,10.244.x.x/16
+```
 
 ---
 
