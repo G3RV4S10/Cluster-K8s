@@ -160,7 +160,7 @@ Este projeto serve como:
 
 ---
 
-## 📎 Observação Final
+#### Observação Final
 
 Todas as decisões aqui documentadas são **intencionais**, **justificadas** e alinhadas com cenários reais de operação.
 
