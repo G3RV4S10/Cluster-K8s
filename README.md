@@ -25,7 +25,7 @@ O detalhamento passo-a-passo da implementação encontra-se na pasta `/docs`:
 4. [**Cluster Bootstrap**](docs/04-cluster-bootstrap.md) - *Inicialização do Control Plane.*
 5. [**Rede e CNI (Calico)**](docs/05-rede-cni-calico.md) - *Solução de problemas de Path CNI no Debian.*
 6. [**Worker Nodes**](docs/06-adicionando-workers.md) - *Join e validação.*
-7. [**MetalLB - Load Balancer**](docs/06-metalb-in-controller.md) - *In progress.*
+7. [**MetalLB - Load Balancer**](docs/07-loadbalancer-metallb.md) - *In progress.*
 
 ---
 
