@@ -1,6 +1,6 @@
 # Kubernetes Cluster – Arquitetura de Control Plane e Worker Nodes
 
-## Documentação "Hard Way" haha
+## Documentação "Hard Way"....
 
 
 ![Status](https://img.shields.io/badge/Status-Operational-success?style=flat-square) 
