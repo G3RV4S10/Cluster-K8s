@@ -67,3 +67,15 @@ kubectl expose deployment nginx-test --port=80 --type=LoadBalancer
 kubectl get svc nginx-test
 # Resultado Esperado: O serviço deve receber um IP do pool (ex: 192.168.255.200) e ser acessível via navegador na rede local.
 ```
+
+
+
+<img width="1197" height="855" alt="image" src="https://github.com/user-attachments/assets/9d9919a9-1338-4366-8f54-a6d2529b0ab6" />
+
+<img width="1207" height="834" alt="image" src="https://github.com/user-attachments/assets/a58b08d8-db09-48f2-b690-11efc3014f05" />
+
+
+<img width="1235" height="368" alt="image" src="https://github.com/user-attachments/assets/600e0a6a-42ac-47c8-9cba-6fab64448f2a" />
+
+
+
