@@ -151,10 +151,13 @@ Este projeto serve como:
 
 - [x] Inicialização do cluster com kubeadm
 - [x] Networking (CNI) - Calico (Configurado e Operacional)
-- [ ] Networking (CNI) - Canal - Explorar futuramente - Junção do Flannel e Calico
+- [x] Networking (CNI) - Feito, falta documentar ~Canal - Explorar futuramente - Junção do Flannel e Calico~
 - [x] Documentação de troubleshooting (CNI e Runtime)
-- [ ] Hardening básico de segurança
+- [x] Networking (CNI) - Calico (Configurado e Operacional)
+- [x] Load Balancer (MetalLB) - Layer 2
+- [x] Ingress Controller (NGINX) - Bare Metal
 - [ ] Monitoramento (Prometheus + Grafana)
+- [ ] Hardening básico de segurança
 - [ ] Backup do etcd
 - [ ] Documentação de troubleshooting
 
