@@ -78,4 +78,9 @@ kubectl get svc nginx-test
 <img width="1235" height="368" alt="image" src="https://github.com/user-attachments/assets/600e0a6a-42ac-47c8-9cba-6fab64448f2a" />
 
 
+<img width="1913" height="331" alt="image" src="https://github.com/user-attachments/assets/fdb7ec86-45da-4dbd-acb4-527e120a65a3" />
+
+<img width="1918" height="461" alt="image" src="https://github.com/user-attachments/assets/4b069eaa-6180-4674-a972-c943b03666da" />
+
+
 
